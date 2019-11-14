@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { NavBar, Grid, ListView, Icon, Tabs, List, InputItem, Button, WhiteSpace, WingBlank, TabBar, Carousel } from 'antd-mobile';
+import { NavBar,  Icon, Tabs, Carousel } from 'antd-mobile';
 const tabs2 = [
     { title: '推荐' },
     { title: '冬季' },
@@ -18,11 +18,11 @@ export default class Ling extends Component {
     }
     componentDidMount() {
         // simulate img loading
-        setTimeout(() => {
-            this.setState({
-                data: ['AiyWuByWklrrUDlFignR', 'TekJlZRVCjLFexlOCuWn', 'IJOtIlfsYdTyaDTRVrLI'],
-            });
-        }, 100);
+        // setTimeout(() => {
+        //     this.setState({
+        //         data: ['AiyWuByWklrrUDlFignR', 'TekJlZRVCjLFexlOCuWn', 'IJOtIlfsYdTyaDTRVrLI'],
+        //     });
+        // }, 100);
     }
     render() {
         return (
