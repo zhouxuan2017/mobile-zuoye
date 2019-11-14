@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import { NavBar, Grid, ListView, Icon, List, InputItem, Button, WhiteSpace, WingBlank, TabBar, Carousel } from 'antd-mobile';
+
+import {TabBar} from 'antd-mobile';
 import My from './My'
 import MyHome from './MyHome';
 import Ling from './Ling'

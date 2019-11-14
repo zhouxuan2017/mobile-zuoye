@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { NavBar, Grid, ListView, Icon, List, InputItem, Button, WhiteSpace, WingBlank, TabBar, Carousel } from 'antd-mobile';
+import { NavBar, Carousel } from 'antd-mobile';
 export default class MyHome extends Component {
     constructor(props) {
         super(props);

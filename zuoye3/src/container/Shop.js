@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { NavBar, Grid,SearchBar, ListView, Icon, List, InputItem, Button, WhiteSpace, WingBlank, TabBar, Carousel } from 'antd-mobile';
+import { NavBar, Grid, Carousel,SearchBar } from 'antd-mobile';
 const arr=[
     {icon:require('../img/5_06.jpg'),text:'桌'},
    {icon:require('../img/5_08.jpg'),text:'床'},
@@ -73,10 +73,10 @@ export default class Shop extends Component {
       columnNum={5}/>
                 <div style={{width:'100%',height:210}}>
                     <div style={{width:'44%',marginLeft:15,height:200,float:'left'}}>
-                        <img src={require('../img/7_06.jpg')} style={{width:'100%',height:200}}></img>
+                        <img src={require('../img/7_06.jpg')} style={{width:'100%',height:200}} alt=''></img>
                     </div>
                     <div style={{width:'44%',marginLeft:15,height:200,float:'left'}}>
-                    <img src={require('../img/55.jpg')} style={{width:'100%',height:200}}></img>
+                    <img src={require('../img/55.jpg')} style={{width:'100%',height:200}} alt=''></img>
                     </div>
                     <div style={{height:190}}>
                         <img style={{width:'100%',height:190}} src='https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3524021006,2702978246&fm=26&gp=0.jpg'></img>
