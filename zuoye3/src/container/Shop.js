@@ -29,7 +29,7 @@ export default class Shop extends Component {
         // simulate img loading
         setTimeout(() => {
             this.setState({
-                data: ['http://img0.imgtn.bdimg.com/it/u=2833259139,1630081513&fm=26&gp=0.jpg', 'http://img5.imgtn.bdimg.com/it/u=2235513760,1942190569&fm=26&gp=0.jpg', 'http://img2.imgtn.bdimg.com/it/u=1019945468,1270499964&fm=26&gp=0.jpg', 'http://img2.imgtn.bdimg.com/it/u=1569405964,3721078154&fm=26&gp=0.jpg'],
+                data: [require('../img/7.jpg'), require('../img/8.jpg'), require('../img/9.jpg'), require('../img/0.jpg')],
 
             }); 
         }, 100);

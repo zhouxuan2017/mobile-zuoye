@@ -13,7 +13,7 @@ export default class MyHome extends Component {
         // simulate img loading
         setTimeout(() => {
             this.setState({
-                data: ['http://img1.imgtn.bdimg.com/it/u=3817593529,4243513540&fm=26&gp=0.jpg', 'http://img3.imgtn.bdimg.com/it/u=1161001322,905401873&fm=26&gp=0.jpg', 'http://img1.imgtn.bdimg.com/it/u=2472697107,3847722896&fm=26&gp=0.jpg'],
+                data: [require('../img/1.jpg'),require('../img/2.jpg') , require('../img/5.jpg')],
             });
         }, 100);
     }
